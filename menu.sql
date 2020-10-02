@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `menu` (
     `ID` int(11) NOT NULL,
-    `menu` varchar(30) NOT NULL,
+    `name` varchar(30) NOT NULL,
     `prices` int(11) NOT NULL
 ) ENGINE= InnoDB DEFAULT CHARSET=utf8;
 
@@ -32,7 +32,7 @@ CREATE TABLE `menu` (
 -- Dumping data for table `menu`
 --
 
-INSERT INTO `menu` (`ID`, `menu`, `prices`) VALUES
+INSERT INTO `menu` (`ID`, `name`, `prices`) VALUES
 (1, 'Espresso', '45'),
 (2, 'Amaricano', '55'),
 (3, 'Hot Cappuccino', '55'),
